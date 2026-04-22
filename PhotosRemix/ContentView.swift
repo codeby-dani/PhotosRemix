@@ -9,11 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var usedGB: Double = 71
+//    @State private var usedGB: Double = 71
     
     let totalGB: Double = 251.32
     
-    var percent: Int { Int((usedGB / totalGB) * 100)}
+//    var percent: Int { Int((usedGB / totalGB) * 100)}
     
     let columns = [
         GridItem(.flexible()),
